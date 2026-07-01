@@ -1,0 +1,9 @@
+# 依赖目录:体积大且可由 npm install 重建,不进 Git
+node_modules/
+
+# 编译产物:由 npm run build 生成,不进 Git(npx 安装时 prepare 脚本会自动重建)
+dist/
+
+# 日志和系统文件
+*.log
+.DS_Store
