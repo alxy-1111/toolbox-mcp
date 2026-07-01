@@ -13,7 +13,6 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
-    "prepare": "npm run build",
     "inspect": "npm run build && npx @modelcontextprotocol/inspector node dist/server.js"
   },
   "engines": {
